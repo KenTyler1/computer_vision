@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Testing</title>
+    <style>
+      body {
+        background-image: url("E:/Semester_II _Courses/BT_TGMT/ProjectTGMT/templates/fruit-background.jpg");
+        background-size: cover;
+        background-position: center;
+      }
+      .logo {
+        display: block;
+        margin: 0 auto;
+        width: 50%;
+      }
+      h1 {
+        text-align: center;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Fruit identification</h1>
+    <img src="{{ url_for('VideoTheoThuMuc') }}" class="logo" />
+  </body>
+</html>
